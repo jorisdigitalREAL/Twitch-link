@@ -1,5 +1,5 @@
 # Twitch-link
-# Automate Streamlink to view Twitch.tv streams in mpv/vlc. 
+# Very simple scritp to automate Streamlink to view Twitch.tv streams in mpv/vlc. 
 # Download twitch.sh and place in user dir or dir of choice.
 # chmod +x ./twitch.sh
 # chmod +x ./favorites.sh
