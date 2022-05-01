@@ -1,4 +1,5 @@
-![2022-04-30_13-37](https://user-images.githubusercontent.com/101760116/166118364-c4932e2f-38bb-412f-b490-5d7b61ce7152.png)
+![2022-04-30_13-37](https://user-images.githubusercontent.com/101760116/166129694-44bfff5a-b38b-4a96-8595-43469ebf3766.png)
+
 
 # Twitch-link
  Very simple scritp to automate Streamlink to view Twitch.tv streams in mpv/vlc.
@@ -12,3 +13,5 @@
  twitch.sh will create favorites.sh and status.txt. I included a favorites.sh so you can chmod it before running twitch-link.
 	
  If you are running vlc you can edit line 41 mpv to vlc; echo $(streamlink -p mpv www.twitch.tv/$name best).
+ 
+ updated to add color to online/offline
