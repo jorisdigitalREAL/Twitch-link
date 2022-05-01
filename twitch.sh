@@ -1,4 +1,4 @@
-#!/bin/bash
+\#!/bin/bash
 
 
 cat << "EOF" 
@@ -33,7 +33,7 @@ echo "$name added to favorites."
 #
 sleep 1 
 #
-awk '{if ($10 == "Available") print substr ($8, 11) " is online"; else print substr ($8, 11) " is offline"}' status.txt 
+awk -v red="$(tput setaf 1)" -v green="$(tput setaf 2)" -v zero="$(tput sgr0)" '{if ($10 == "Available") print substr ($8, 11) " -" green" online"zero; else print substr ($8, 11) " -" red" offline"zero}' status.txt
 ;;
 "Start a stream")
 echo "Who would you like to stream?"
